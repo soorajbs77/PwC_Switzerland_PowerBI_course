@@ -1,1 +1,1 @@
-# PwC_Switzerland_PowerBI_course
+# PwC_Switzerland_PowerBI_Projects
