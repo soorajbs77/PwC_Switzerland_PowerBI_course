@@ -8,3 +8,7 @@ Number of Male = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),FILTER(
 % of Male = DIVIDE('Pharma Group AG'[Number of Male],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])
 
 % of Female = DIVIDE('Pharma Group AG'[Number of Female],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])
+
+Avg Male Rating: CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),FILTER('Pharma Group AG','Pharma Group AG'[Gender] = "Male"))
+
+Avg Female Rating: CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),FILTER('Pharma Group AG','Pharma Group AG'[Gender] = "female"))
